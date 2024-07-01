@@ -1,7 +1,7 @@
 # 🐋 | Docker
 
-- [Instalar Docker - Mint Virginia](#🐋  | Docker (Ubuntu 24.04))
-- [Instalar Docker - Mint Virginia](#🐋  | Docker (Mint))
+- [Instalar Docker - Mint Virginia](#🐋  | Docker - Ubuntu 24.04)
+- [Instalar Docker - Mint Virginia](#🐋  | Docker - Mint)
 
 Docker é uma plataforma de software que permite criar, testar e implantar aplicações rapidamente. Ele utiliza a virtualização a nível de sistema operacional para entregar software em pacotes chamados contêineres. Aqui estão alguns conceitos-chave sobre o Docker:
 
@@ -85,7 +85,7 @@ docker --version
 
 ----
 
-#🐋  | Docker (Mint)
+# 🐋  | Docker (Mint)
 
 ```bash
 sudo apt install apt-transport-https ca-certificates curl software-properties-common

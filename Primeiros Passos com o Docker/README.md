@@ -113,3 +113,37 @@ docker exec <NAME> ls /destino -l
 ```bash
 docker cp <NAME>:/destino/arquivo.txt <PATH>
 ```
+
+----
+
+## 🐋 | TAGS
+
+```bash
+docker run -dti <image_name>:<TAG>
+```
+
+----
+
+## 🐋 | Criando um container do MYSQL
+
+- [Docker Hub - Mysql](https://hub.docker.com/_/mysql/)
+
+```bash
+docker pull mysql
+```
+
+```bash
+docker run -e MYSQL_ROOT_PASSWORD=<Senha> --name mysql-A -d -p <port>:<port> mysql
+```
+
+```bash
+docker exec -it mysql-A bash
+```
+
+```bash
+mysql -u root -p --protocol=tcp
+```
+
+```bash
+sudo apy -y install mysql-client
+```

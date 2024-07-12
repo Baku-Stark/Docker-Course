@@ -45,3 +45,38 @@ CMD python3 /opt/app.py
 ----
 
 ## Criando imagens personalizadas a partir de imagens de liguagens de programação
+
+----
+
+## Gerando uma imagem Multistage
+
+----
+
+## Realizando o upload de imagens para o Hub do Docker
+
+
+----
+
+## Registry Criando um servidor de imagens
+
+
+```bash
+docker pull registry
+```
+
+```bash
+docker run -d -p 5000:5000 --restart=always --name registry registry:2
+```
+
+```bash
+docker ps
+```
+
+```bash
+docker images
+```
+
+```bash
+docker image tag <IMAGE ID> <IP>:<PORT>/<REPOSITORY>:<TAG>
+```
+

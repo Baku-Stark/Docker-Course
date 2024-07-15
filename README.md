@@ -129,3 +129,31 @@ TriggeredBy: ● docker.socket
      CGroup: /system.slice/docker.service
              └─24321 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 ```
+
+----
+
+# O que é Docker Compose
+
+O Docker Compose é uma ferramenta usada para definir e executar aplicativos de vários contêineres do Docker. Ele permite criar e gerenciar múltiplos contêineres através de um único arquivo YAML, facilitando o provisionamento e gerenciamento em ambientes de desenvolvimento e testes. Com o Docker Compose, é possível descrever parâmetros e configurações das imagens e subir toda a infraestrutura com um único comando.
+
+##Comandos do Docker Compose
+
+O Docker Compose possui alguns comandos a serem utilizados para garantir toda essa facilidade no provisionamento e gerenciamento dos contêineres, vejamos então os principais:
+
+- **docker-compose up**: cria e inicia os contêineres;
+
+- **docker-compose build**: realiza apenas a etapa de build das imagens que serão utilizadas;
+
+- **docker-compose logs**: visualiza os logs dos contêineres;
+
+- **docker-compose restart**: reinicia os contêineres;
+
+- **docker-compose ps**: lista os contêineres;
+
+- **docker-compose scale**: permite aumentar o número de réplicas de um contêiner;
+
+- **docker-compose start**: inicia os contêineres;
+
+- **docker-compose stop**: paralisa os contêineres;
+
+- **docker-compose down**: paralisa e remove todos os contêineres e seus componentes como rede, imagem e volume.

@@ -136,7 +136,7 @@ TriggeredBy: ● docker.socket
 
 O Docker Compose é uma ferramenta usada para definir e executar aplicativos de vários contêineres do Docker. Ele permite criar e gerenciar múltiplos contêineres através de um único arquivo YAML, facilitando o provisionamento e gerenciamento em ambientes de desenvolvimento e testes. Com o Docker Compose, é possível descrever parâmetros e configurações das imagens e subir toda a infraestrutura com um único comando.
 
-##Comandos do Docker Compose
+## Comandos do Docker Compose
 
 O Docker Compose possui alguns comandos a serem utilizados para garantir toda essa facilidade no provisionamento e gerenciamento dos contêineres, vejamos então os principais:
 
